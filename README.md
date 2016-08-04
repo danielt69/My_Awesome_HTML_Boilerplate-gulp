@@ -31,7 +31,13 @@ It is a HTML5 boilerplate (Starter Template) including:
 
 ### Installation
 
-Just unzip and you are good!
+ - unzip
+ - Go inside the folder run:
+	**npm install --save-dev gulp gulp-cli**
+	**npm install**
+	**gulp**
+
+And you are good to go!
 
 ### Development
 
