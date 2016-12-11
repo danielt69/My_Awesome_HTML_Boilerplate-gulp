@@ -7,13 +7,13 @@
 It is a HTML5 boilerplate (Starter Template) including:
 
   - Bourbon v4.2.7
-  - Jquery v3.0
-  - Bootstrap v3.3.6
+  - Jquery v2.2.4
+  - Bootstrap v3.3.7
   - Outdated_Browser v1.1.3
   - Font_Awesome v4.6.3
   - Google Analytics
   - Gulp.js
-	  -  scss auto compile
+	  - scss auto compile
 	  - sourcemaps for css/js
 	  - css/js/html minify
 	  - css/js concat
@@ -27,14 +27,17 @@ It is a HTML5 boilerplate (Starter Template) including:
 
 
 ### Version
-1.0.1
+1.1.0
 
 ### Installation
 
  - unzip
  - Go inside the folder run:
+ 
 	**npm install --save-dev gulp gulp-cli**
+
 	**npm install**
+
 	**gulp**
 
 And you are good to go!
