@@ -38,7 +38,9 @@ It is a HTML5 boilerplate (Starter Template) including:
 
 	**npm install**
 
-	**gulp**
+	**gulp serve**   (for developing)
+  
+  **gulp serve:dist**   (for production build)
 
 And you are good to go!
 
