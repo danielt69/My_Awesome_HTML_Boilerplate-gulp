@@ -47,7 +47,9 @@ And you are good to go!
 make sure to install windows-build-tools dependencies:
 
 **npm install --global --production windows-build-tools**
+
 **npm install --global node-gyp**
+
 (https://stackoverflow.com/questions/15126050/running-python-on-windows-for-node-js-dependencies)
 
 ### Development
