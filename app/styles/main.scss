@@ -1,12 +1,36 @@
-@import "bourbon/_bourbon.scss";
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i,800');
+
+// reset
+img { display: inline-block; max-width: 100%; }
+@media (min-width: 1760px) {
+	.container {max-width: 1722px; }
+}
+
+
+// base
 body { font-family: 'Open Sans', sans-serif; font-size: 16px;}
-h1 { font-weight: 900; color:#444; font-size: 3em; }
-h2 { font-weight: 900; color:#444; font-size: 2.5em; }
-h3 { font-weight: 900; color:#444; font-size: 2em; }
-h4 { font-weight: 900; color:#444; font-size: 1.5em; }
-h5 { font-weight: 900; color:#444; font-size: 1em; }
-h6 { font-weight: 900; color:#444; font-size: 0.9em; }
+h1 { font-weight: 900; color:#444; font-size: 3rem; margin-top: 0.3em;  }
+h2 { font-weight: 900; color:#444; font-size: 2.5rem; }
+h3 { font-weight: 900; color:#444; font-size: 2rem; }
+h4 { font-weight: 900; color:#444; font-size: 1.5rem; }
+h5 { font-weight: 900; color:#444; font-size: 1rem; }
+h6 { font-weight: 900; color:#444; font-size: 0.9rem; }
 
 // your css goes here
+
+.grid { position: fixed; top: 0; left: 50%; transform: translateX(-50%); height: 100vh; z-index: -1;
+	.row { height: 100%; margin: 0 -1px;
+		.col { width: 1px !important; background: #f2f2f2; flex-grow: 0; flex-shrink: 0; max-width: none; min-width: 1px; outline: none !important; background: #000; }
+	}
+}
+
+
+header { background: #fff; border-bottom: 1px solid rgba(0,0,0,.1); }
+
+
+.main {
+	.row {
+		>.col, >[class*=col-] { outline: 1px solid #000; background: #fff; }
+	}
+	.row div { padding: 46px; }
+}
