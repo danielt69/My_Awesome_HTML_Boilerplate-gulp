@@ -32,5 +32,7 @@ header { background: #fff; border-bottom: 1px solid rgba(0,0,0,.1); }
 	.row {
 		>.col, >[class*=col-] { outline: 1px solid #000; background: #fff; }
 	}
-	.row div { padding: 46px; }
+	.row div { padding: 0; background-position-x: center; background-position-y: 0px; background-size: cover; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255);
+		img { visibility: hidden; }
+	}
 }

@@ -75,7 +75,12 @@
   // Your custom JavaScript goes here
 
 
-
+  $(document).ready(function() {
+    $('.container.main .row div img').each(function() {
+      var src = $(this).attr('src');
+      $(this).parent().css('background-image','url(' + src + ')')
+    })
+  })
 
 
 
