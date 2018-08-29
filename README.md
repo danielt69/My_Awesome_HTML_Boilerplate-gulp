@@ -1,4 +1,4 @@
-# My Awesome HTML5 Boilerplate plus Gulp.js!
+# My Awesome HTML5 Boilerplate (Gulp.js)!
 
 ![This is Awesome!](https://raw.githubusercontent.com/danielt69/My_Awesome_HTML_Boilerplate/master/img/wow.gif)  
 
@@ -6,11 +6,11 @@
 
 It is a HTML5 boilerplate (Starter Template) including:
 
-  - Bourbon v4.2.7
-  - Jquery v2.2.4
-  - Bootstrap v3.3.7
-  - Outdated_Browser v1.1.3
-  - Font_Awesome v4.6.3
+
+  - Jquery v3.3.1
+  - Bootstrap v4.1.0
+  - Outdated_Browser v1.1.2
+  - Font_Awesome v5.2.0
   - Google Analytics
   - Gulp.js
 	  - scss auto compile
@@ -27,7 +27,7 @@ It is a HTML5 boilerplate (Starter Template) including:
 
 
 ### Version
-1.1.0
+1.2.0
 
 ### Installation
 
