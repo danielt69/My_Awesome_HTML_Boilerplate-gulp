@@ -20,7 +20,7 @@ h6 { font-weight: 900; color:#444; font-size: 0.9rem; }
 
 .grid { position: fixed; top: 0; left: 50%; transform: translateX(-50%); height: 100vh; z-index: -1;
 	.row { height: 100%; margin: 0 -1px;
-		.col { width: 1px !important; background: #f2f2f2; flex-grow: 0; flex-shrink: 0; max-width: none; min-width: 1px; outline: none !important; background: #000; }
+		.col { width: 1px !important; background: #f2f2f2; flex-grow: 0; flex-shrink: 0; max-width: none; min-width: 1px; outline: none !important; }
 	}
 }
 
@@ -30,9 +30,9 @@ header { background: #fff; border-bottom: 1px solid rgba(0,0,0,.1); }
 
 .main {
 	.row {
-		>.col, >[class*=col-] { outline: 1px solid #000; background: #fff; }
+		>.col, >[class*=col-] { outline: 1px solid #f2f2f2; background: #fff; }
 	}
-	.row div { padding: 0; background-position-x: center; background-position-y: 0px; background-size: cover; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255);
+	.row div[class*=col-] { padding: 0; background-position-x: center; background-position-y: 0px; background-size: cover; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255);
 		img { visibility: hidden; }
 	}
 }
