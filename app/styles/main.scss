@@ -30,7 +30,8 @@ header { background: #fff; border-bottom: 1px solid rgba(0,0,0,.1); }
 
 .main {
 	.row {
-		>.col, >[class*=col-] { outline: 1px solid #f2f2f2; background: #fff; }
+		>.col, >[class*=col-] { outline: 1px solid #f2f2f2; background: #fff;
+		 border-radius: 6px; box-shadow: inset 0px 0px 0px 2px #fff; outline: none; }
 	}
 	.row div[class*=col-] { padding: 0; background-position-x: center; background-position-y: 0px; background-size: cover; background-repeat-x: no-repeat; background-repeat-y: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(255, 255, 255);
 		img { visibility: hidden; }
